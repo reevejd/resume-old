@@ -1,3 +1,1 @@
-
-![My Resume](https://github.com/reevejd/resume-long/blob/master/resume_page1.png "My Resume")
-
+![My resume](https://github.com/reevejd/resume/blob/master/resume.png "My resume")
