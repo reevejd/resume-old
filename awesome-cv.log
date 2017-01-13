@@ -487,4 +487,37 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/un
+(/usr/local/texlive/2016/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+Package: unicode-math 2015/09/24 v0.8c Unicode maths in XeLaTeX and LuaLaTeX
+
+
+/usr/local/texlive/2016/texmf-dist/tex/latex/unicode-math/unicode-math.sty:23: 
+LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \usepackage{
+                 ifxetex,ifluatex}
+? 
+/usr/local/texlive/2016/texmf-dist/tex/latex/unicode-math/unicode-math.sty:23: 
+Emergency stop.
+ ...                                              
+                                                  
+l.23 \usepackage{
+                 ifxetex,ifluatex}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+ 
+Here is how much of TeX's memory you used:
+ 3108 strings out of 493014
+ 39785 string characters out of 6133351
+ 106955 words of memory out of 5000000
+ 6639 multiletter control sequences out of 15000+600000
+ 4403 words of font info for 15 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 23i,0n,43p,800b,38s stack positions out of 5000i,500n,10000p,200000b,80000s
+/usr/local/texlive/2016/texmf-dist/tex/latex/unicode-math/unicode-math.sty:23: 
+ ==> Fatal error occurred, no output PDF file produced!

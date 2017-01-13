@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  9 JAN 2017 22:56
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  13 JAN 2017 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -11,8 +11,8 @@ Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 Document Class: awesome-cv 2015/12/14 v1.3 Awesome Curriculum Vitae Class
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -708,27 +708,27 @@ LaTeX Info: Redefining \selectfont on input line 79.
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(42.67912pt, 745.46222pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=745.46222pt
+* h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
+* v-part:(T,H,B)=(42.67912pt, 695.38536pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=500.484pt
+* \textheight=695.38536pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
 * \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=14.22636pt
-* \marginparwidth=50.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -791,17 +791,17 @@ LaTeX Info: Redefining \nameref on input line 79.
 
  (./resume/education.tex
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.95015pt on input line 8.
+(Font)              scaled to size 10.00015pt on input line 8.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.67863pt on input line 8.
+(Font)              scaled to size 7.01247pt on input line 8.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.45398pt on input line 8.
+(Font)              scaled to size 4.9808pt on input line 8.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.94983pt on input line 8.
+(Font)              scaled to size 9.99985pt on input line 8.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.6784pt on input line 8.
+(Font)              scaled to size 7.01224pt on input line 8.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.45381pt on input line 8.
+(Font)              scaled to size 4.98067pt on input line 8.
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/m/sl' in size <9> not avai
 lable
 (Font)              Font shape `EU1/SourceSansPro(2)/m/it' tried instead on inp
@@ -811,7 +811,7 @@ lable
 (Font)              Font shape `EU1/SourceSansPro(2)/m/it' tried instead on inp
 ut line 8.
 ) (./resume/experience.tex) (./resume/projects.tex) (./resume/honors.tex
-Overfull \hbox (72.8333pt too wide) in alignment at lines 2--5
+Overfull \hbox (54.81781pt too wide) in alignment at lines 2--5
 [] [] 
  []
 
@@ -826,11 +826,11 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 90.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 90.
  ) 
 Here is how much of TeX's memory you used:
- 27940 strings out of 493591
- 484038 string characters out of 6143546
- 602093 words of memory out of 5000000
- 31075 multiletter control sequences out of 15000+600000
- 6520 words of font info for 77 fonts, out of 8000000 for 9000
+ 27937 strings out of 493591
+ 483908 string characters out of 6143546
+ 601872 words of memory out of 5000000
+ 31072 multiletter control sequences out of 15000+600000
+ 5853 words of font info for 74 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  53i,11n,68p,10384b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
 
