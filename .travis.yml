@@ -1,7 +1,7 @@
 before_install:
     - "sudo apt-get update && sudo apt-get install --no-install-recommends texlive-full texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended latex-xcolor texlive-xetex texlive-math-extra dvipng"
 script:
-    - pdflatex resume.tex
+    - xelatex resume.tex
 deploy:
     provider: releases
     file:
