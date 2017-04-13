@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  28 JAN 2017 00:11
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  13 APR 2017 17:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -789,7 +789,11 @@ LaTeX Info: Redefining \nameref on input line 79.
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
- (./resume/education.tex
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+(./resume/education.tex
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 10.00015pt on input line 8.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
@@ -810,7 +814,8 @@ LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/m/sl' in size <8> not avai
 lable
 (Font)              Font shape `EU1/SourceSansPro(2)/m/it' tried instead on inp
 ut line 8.
-) (./resume/experience.tex) (./resume/projects.tex) (./resume/honors.tex
+) (./resume/experience.tex) (./resume/projects.tex)
+(./resume/honors.tex
 Overfull \hbox (54.81781pt too wide) in alignment at lines 2--5
 [] [] 
  []
@@ -828,7 +833,7 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 90.
 Here is how much of TeX's memory you used:
  27939 strings out of 493591
  484015 string characters out of 6143546
- 601867 words of memory out of 5000000
+ 601737 words of memory out of 5000000
  31073 multiletter control sequences out of 15000+600000
  5861 words of font info for 75 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
