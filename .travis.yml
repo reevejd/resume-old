@@ -1,7 +1,8 @@
 before_install:
-	- "sudo apt-get update && sudo apt-get install --no-install-recommends textlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended dvipng"
+    - "sudo apt-get update && sudo apt-get install --no-install-recommends textlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended dvipng"
 script:
-	- pdflatex resume.tex
+    - pdflatex resume.tex
 deploy:
-	file:
-		- resume.pdf
+    provider: releases
+    file:
+    - resume.pdf
