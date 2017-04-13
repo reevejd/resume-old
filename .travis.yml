@@ -1,6 +1,6 @@
 before_install:
     - "sudo apt-get update && sudo apt-get install --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended latex-xcolor tlmgr dvipng"
-		- "sudo tlmgr install unicode-math"
+    - "sudo tlmgr install unicode-math"
 script:
     - pdflatex resume.tex
 deploy:
