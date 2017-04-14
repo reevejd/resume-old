@@ -1,8 +1,8 @@
 dist: trusty
 before_install:
-    - "sudo apt-get update && sudo apt-get install --no-install-recommends texlive-full texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended latex-xcolor texlive-xetex texlive-math-extra dvipng texlive-latex3"
+    - "sudo add-apt-repository ppa:jonathonf/texlive-2016 && sudo apt-get update && sudo apt-get install --no-install-recommends texlive-full texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended latex-xcolor texlive-xetex texlive-math-extra dvipng texlive-latex3"
 script:
-    - xelatex resume.tex
+    - xelatex -interaction=nonstopmode resume.tex
 deploy:
     provider: releases
     file:
