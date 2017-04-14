@@ -1,9 +1,15 @@
 dist: trusty
 before_install:
-    - "sudo add-apt-repository -y ppa:jonathonf/texlive-2016 && sudo apt-get update && sudo apt-get install --no-install-recommends texlive-full texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended latex-xcolor texlive-xetex texlive-math-extra dvipng texlive-latex3"
+- sudo add-apt-repository -y ppa:jonathonf/texlive-2016 && sudo apt-get update &&
+  sudo apt-get install --no-install-recommends texlive-full texlive-fonts-recommended
+  texlive-latex-extra texlive-fonts-extra texlive-latex-recommended latex-xcolor texlive-xetex
+  texlive-math-extra dvipng texlive-latex3
 script:
-    - xelatex -interaction=nonstopmode resume.tex
+- xelatex -interaction=nonstopmode resume.tex
 deploy:
-    provider: releases
-    file:
-    - resume.pdf
+  provider: releases
+  api_key:
+    secure: goC8Euu0UeHi9tazTW5kJdR4s/L8VBVmXTquGMLKPZ5I1p4nL2/WYzUeVwDBYHqkLHePVe4dsT0SXmgBgkpI4xd9a4T9rdY5TlUMbVLK1mHWXqj63h9P4fvsH129jXe2A/l2+dQaWmaZkq0AGTe4R5WbiUyrh7RB4wgxe1aglts56z6APetvd7U/qgOXpmELujEBHG6kobzEuFZ1HoMSWGTLl1zQP2yCa14r9NwUkKcYIycniOnMoB6kJ8S+2I94YSwogZBogZXTYvx/rB0/RW7xHvmnAHR4na6+fWEwy6GApUGzAFpGdpgyBGg5Gs1u+PLcKLpjnk9SwCRQ2WsGFcZgfTdsiBN41P3VAl4sAjgDwSgLcsHSZa4b+6huLN7zD+SWPFBgOtKLBxxuxw5QAz+ZqU8IRMFmwO9+E+p1TjFwF6mZzxt+RpkeElH41pjhz7uY0aIiTEzphhMzkl/glcaAwjABiYuHfPFdkYnP/hxPn43i1bv4Zec9QAY4GauskkbP4Gw7RnuMGGmspxFoQtoTl9A5tBQ5DXkrNs9RCJqGuq/YbKCajM5KWjBMrR/HE/3FkhHvPx/oj84kr7bOj3VgfVCpvODFyfSVu8mpN3KGupsnp3tkhVXce2Az/zEmbVqIpsjoFNV6Ku2/QXjqmmOldWecwU3ua1plaG4mLpE=
+  file: resume.pdf
+  on:
+    repo: reevejd/resume
